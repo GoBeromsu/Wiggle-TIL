@@ -69,3 +69,38 @@ int main(){
 
 * 위와 같이 다시 주석을 달고 카톡으로 처음 보냈던 코드와 비교하면 이해가 될거라고 말해주었다
 * 무조건 답을 알려주는건 서로에게 좋지 않을 것 같다
+
+## 랜덤 함수 값 구하는 문제
+
+```c++
+#include <iostream>
+#include <ctime> // for time function
+#include <cstdlib> // for rand and srand functions
+using namespace std;
+
+int main()
+{
+   // 1. Generate two random single-digit integers
+   srand(time(0));
+   int number1 = rand() % 10;
+   int number2 = rand() % 10;
+   int number3 = rand() % 10;
+
+   cout << "What is " << number1 << " + " << number2 << " + " << number3 << "? ";
+   int answer = 0;
+   
+   answer = number1 + number2 + number3;
+   // 4. Grade the answer and display the result
+   if (answer > 100){
+   	cout << "합이 100을 초과했습니다";
+   }
+   else{
+   	cout << "합은 " << answer;
+   }
+   
+   
+   return 0;
+}
+```
+
+친구가 어려웠던 부분은 원래 위의 코드 짜는데 참고하라고 랜덤한 두 수의 차를 구하는 코드를 교수님이 주셨는데 오히려 그게 더 과제할 때 헷갈리게 했나보다
