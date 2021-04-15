@@ -104,3 +104,52 @@ int main()
 ```
 
 친구가 어려웠던 부분은 원래 위의 코드 짜는데 참고하라고 랜덤한 두 수의 차를 구하는 코드를 교수님이 주셨는데 오히려 그게 더 과제할 때 헷갈리게 했나보다
+
+### 이스케이프 문이 안먹힌다?
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  int number=0;
+  
+  cout << "Enter an integer ";
+  cin >> number;
+  cout << "\n";
+  
+  cout << "Is " << number  << " divisible by 5 and 6? ";
+  if(number%5==0 && number%6==0){
+  	cout << "true \n";
+  }else{
+  	cout << "false \n";
+  }
+    
+  cout << "Is " << number  << " divisible by 5 or 6? ";
+  
+  if(number%5 ==0 || number%6==0){
+  	cout << "true \n";
+  }else{
+  	cout << "false \n";
+  }
+  
+  cout << "Is " << number  << " divisible by 5 or 6?, but not both ";
+  
+
+    if((number%5 ==0 &&number%6!=0)|| (number%5 !=0 && number%6==0)){
+  	cout << "true \n";
+  }else{
+  	cout << "false \n";
+  }
+  
+  return 0;
+}
+
+```
+
+* 이스케이프 문을 입력했는데 안먹혀서 먼가했다
+	* 핸드폰에 ₩n이랑 \n 둘다 있어서 그냥 썼는데 줄이 안바뀌었다
+	* \n으로 하니까 바뀌더라
+* 그거말곤 어려움 없는 문제였다
