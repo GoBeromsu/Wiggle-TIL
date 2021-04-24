@@ -24,7 +24,7 @@ finally:
 
 ## except 사용법
 
-1. try-except만 사용하는 방법
+* try-except만 사용하는 방법
 
 ```python
 try:
@@ -32,7 +32,7 @@ try:
 except
 	•••
 ```
-2. 발상 오류만 포함하는 방법
+* 발상 오류만 포함하는 방법
 
 ```python
 try:
@@ -41,7 +41,7 @@ except[발생 오류]
 	•••
 ```
 
-3. 발생 오류 메시지와 변수까지 포함한 방법
+* 발생 오류 메시지와 변수까지 포함한 방법
 
 ```python
 try:
