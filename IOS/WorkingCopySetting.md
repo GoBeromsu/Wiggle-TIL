@@ -42,3 +42,7 @@ x-callback url을 이용하면 커밋까지 한 번에 workflow를 할 수도 �
 
 * url escape variable을 체크 안해서 실행 오류가 발생했다
 	* 커스텀 변수를 url에 추가할 땐 꼭 체크하자
+
+### 버그
+
+* 가끔 커밋이 안되고 workingcopy로 이동만 함
