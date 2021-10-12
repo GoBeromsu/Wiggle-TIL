@@ -16,5 +16,5 @@ for i in range(teamNum):
         team[j][i] = player_name[i][j]
 for i in range(simPersonNum):
     print("-------------------------------------")    
-    print(f"{i} 팀 : {team[i]}")
+    print(f"{i+1} 팀 : {team[i]}")
 print("-------------------------------------")
