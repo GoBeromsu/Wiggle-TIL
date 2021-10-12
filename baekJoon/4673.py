@@ -1,11 +1,31 @@
+
 # n + n의 자리숫자들
 arr =[0 for i in range(10000)]
+count=1
 
 def checkD(n:int):
-    sum=0
-    dLength=len(str(n))
-    for i in range(dLength,0,-1):
-        temp=n/(dLength**i)
-        sum=+temp
-        # remain=n-temp*dLength**i
+    sum=n
+    divValue=0
+    while True:
+        dLength=len(str(n))
+        if(dLength==1):
+            sum+=n
+            break
+        else:
+            number= (10**(dLength-1))
+            divValue=int(n/number)
+            sum+=divValue
+            n=n%(divValue*number)
+    return sum    
 
+for i in range(1,len(arr)+1):
+    target=checkD(i)
+    if (target>=10000):
+        continue
+    else:
+        arr[target] = 1
+
+
+for i in range(1,len(arr)):
+    if (arr[i]!=1):
+        print(i)
