@@ -1,19 +1,26 @@
 import sys
 
-num = sys.stdin.readline().strip()
-numArr=[]
+num = int(sys.stdin.readline())
+count=0
 
-for i in range(len(num)):
-    numArr.append(int(num[i]))
-
-def getGap(numArr:list):
+def getGap(num):
     gap=0
-    arrLength=len(numArr)
+    nums=[]
     arr=[]
-    for i in range(1,arrLength):
-        if (arrLength==1):
-            return arr[0].append(1)
-        arr[i].append(num[i-1]-num[i])
-    return list(set(arr))
+    stNum= str(num)
+    
+    for i in range(len(stNum)):
+        nums.append(int(stNum[i]))
+    arrLength=len(nums)
+    if (arrLength==1):
+        arr.append(1)
+    else:
+        for i in range(arrLength-1):
+            arr.append(nums[i]-nums[i+1])
+    temp = list(set(arr))
+    return temp
 
-print(getGap(121))
+for i in range(1,num+1):
+    if(len(getGap(i))==1):
+        count+=1
+print(count)
