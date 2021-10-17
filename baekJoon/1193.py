@@ -16,15 +16,6 @@ def checkLine(num):
         min= max
         count+=1
 
-def checkDest(num):
-    sum=0
-    count=1
-    while True:
-        sum+=count
-        if(0>=(num-sum)):
-            return count
-        count+=1
-
 def checkEven(num):
     if(num%2==0):
         return True
@@ -34,10 +25,7 @@ def checkEven(num):
 destLine=checkLine(num)
 number = destLine*(destLine-1)/2
 if(checkEven(destLine)):
-    for i in range(num-number):
-
+    print(f"{int(num-number)}/{int(destLine+1-(num-number))}")
 else:
+    print(f"{int(destLine+1-(num-number))}/{int(num-number)}")
 
-
-print(f"checkLine : {checkLine(num)}")
-print(f"checkDest : {checkDest(num)}")
