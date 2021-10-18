@@ -1,7 +1,15 @@
-for i in range(num):
-    floor = int(sys.stdin.readline())
-    room = int(sys.stdin.readline())
-    people = [floor,room]
-    arr.append(people)
-for j in range(num):
-    print(destNum(arr[j][0],arr[j][1]))
+import sys
+
+inputs = list(map(int,sys.stdin.readline().split()))
+
+for i in range(1,len(inputs)):
+    gap = inputs[0] - inputs[1]
+    if((inputs[i-1]-inputs[i]!=gap)):
+        print("mixed")
+        break
+    elif(gap<0):
+        print("ascending")
+        break
+    else:
+        print("descending")
+        break
