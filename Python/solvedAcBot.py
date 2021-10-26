@@ -12,5 +12,13 @@ class UrlSettings(object):
         self.api_server = 'https://solved.ac/api'
         self.userName = userName
         self.userSolvedUrl = self.api_server+'/v3/search/problem?query=solved_by:'+self.userName
+dic = {}
+url = UrlSettings('310o').userSolvedUrl
+data = requests.get(url).json()
 
 
+for j in data['items']:
+    dic[j['problemId']]=j['titleKo']
+    
+for i in dic.items():
+    print(i)
