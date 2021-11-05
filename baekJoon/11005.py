@@ -1,18 +1,12 @@
 import sys
 
-dic ={i:i for i in range(10)}
+dic ={f"{i}":i for i in range(10)}
 for i in range(10,36):
-    dic[i] = chr(i+55)
-result=[]
-N,B = map(int, sys.stdin.readline().split())
-while N:
-    r = N%B
-    q = (N-r)//B
-    if r:
-        result.append(dic[r])
-    else:
-        result.append(0)
-    N=N//B
+    dic[chr(i+55)] = i
+sum=0
+N,B = sys.stdin.readline().split()
+N = list(N)
+for i in range(len(N)):
+    sum+=dic[N.pop()]*(int(B)**i)
 
-while result:
-    print(result.pop(),end='')
+print(sum)
