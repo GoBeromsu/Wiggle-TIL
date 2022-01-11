@@ -1,0 +1,29 @@
+name: Build README
+on:
+  push:
+    branches:
+    - master
+    paths-ignore:
+    - README.md
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v2
+      with:
+        # necessary for github-action-til-autoformat-readme
+        fetch-depth: 0
+    - name: Autoformat README
+      uses: cflynn07/github-action-til-autoformat-readme@1.2.0
+      with:
+        description: |
+          > 꿈틀거린 흔적들
+          > 내가 하기 싫은 일을 꾸준히 할 것
+
+          배운 것들을 기록합니다
+          배운 것을 넘어 공유하고 싶다면 [블로그][1]에 작성합니다
+        footer: |
+          [1]: https://goberomsu.github.io/
+        list_most_recent: 4 # optional, lists most recent TILS below description
+        date_format: "2020 Jan 15:04" # optional, must align to https://golang.org/pkg/time/#Time.Format
