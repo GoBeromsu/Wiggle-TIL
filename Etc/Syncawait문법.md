@@ -1,3 +1,5 @@
+# Syncawait문법
+
 ## let
 
 * 블록 범위(scope) 지역 변수를 선언. 

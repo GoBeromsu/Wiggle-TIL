@@ -1,3 +1,5 @@
+# Bitcoin
+
 #Bitcoin
 
 * Bitcoin은 Block 단위이다

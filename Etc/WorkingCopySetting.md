@@ -1,3 +1,5 @@
+# WorkingCopySetting
+
 # edtiorial - workingcopy Setting
 
 마크다운 에디터로 editorial를 사용하기로 했다. 기능도 많은편이고 내 맘대로 working flow를 만들 수 있어 선택했다. 

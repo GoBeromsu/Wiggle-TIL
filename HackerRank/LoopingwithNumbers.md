@@ -1,3 +1,5 @@
+# LoopingwithNumbers
+
 ## 문제
 
 Use a for loop to display the natural numbers from 1 to 50.
