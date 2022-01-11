@@ -14,39 +14,39 @@ _61 TILs and counting..._
 
 ### 4 most recent TILs
 
-- [# 문제](HackerRank/APersonalizedEcho.md) - Tue Jan 11 17:01:16 2022 +0900
-- [정보의 저장](Computer Science/2 정보의표현과처리.md) - Tue Jan 11 17:01:16 2022 +0900
-- [# 비율 이진수](Computer Science/2.4 부동소수점.md) - Tue Jan 11 17:01:16 2022 +0900
-- [일반적인 원리는 이해해도 자세한 내용은 바우고 싶지않다는 말은 자신을 속이는 것이다 기억하자](Computer Science/3 프로그램의 기계 수준 표현.md) - Tue Jan 11 17:01:16 2022 +0900
+- [1. 컴퓨터 시스템으로의 여행](ComputerScience/1. 컴퓨터 시스템으로의 여행.md) - Tue Jan 11 17:09:59 2022 +0900
+- [2 정보의표현과처리](ComputerScience/2 정보의표현과처리.md) - Tue Jan 11 17:09:59 2022 +0900
+- [2.4 부동소수점](ComputerScience/2.4 부동소수점.md) - Tue Jan 11 17:09:59 2022 +0900
+- [일반적인 원리는 이해해도 자세한 내용은 바우고 싶지않다는 말은 자신을 속이는 것이다 기억하자](ComputerScience/3 프로그램의 기계 수준 표현.md) - Tue Jan 11 17:09:59 2022 +0900
 
 ### Categories
 
-- [Computer Science](#Computer Science)
+- [ComputerScience](#ComputerScience)
 - [Etc](#Etc)
 - [Flutter](#Flutter)
 - [HackerRank](#HackerRank)
 - [정보처리기사](#정보처리기사)
 
-### [Computer Science](#Computer Science)
-- [# 정보는 bit와 context로 이루어져 있다.](Computer Science/1. 컴퓨터 시스템으로의 여행.md)
-- [정보의 저장](Computer Science/2 정보의표현과처리.md)
-- [# 비율 이진수](Computer Science/2.4 부동소수점.md)
-- [일반적인 원리는 이해해도 자세한 내용은 바우고 싶지않다는 말은 자신을 속이는 것이다 기억하자](Computer Science/3 프로그램의 기계 수준 표현.md)
-- [# 3.11.4 부동소수점 상수의 정의 및 이용](Computer Science/3.11.md)
-- [# 4.1.1 프로그래머 가시성 상태](Computer Science/4.1 Y86-64 인스트럭션 집합.md)
-- [* 인스트럭션 집합 인코딩사 값이 유일해야한다](Computer Science/4.1.3 인스트럭션 인코딩.md)
-- [* 프로세서는 일반적으로 발생한 특정 예외 상황을 처리하기 위한 프로시저인 예외 처리 루틴을 호출](Computer Science/4.1.4 Y86-64 예외 상황.md)
-- [* X86-64와 다른 규칙을 적용한다](Computer Science/4.1.5 Y86-64 프로그램.md)
-- [* 프로그램 설계시 모호성을 최소화](Computer Science/4.1.6 일부 Y86-64 인스트럭션들에 관한 설명.md)
-- [* HCL(hardware control language)](Computer Science/4.2 논리 설계와 하드웨어 제어 언어 HCL.md)
-- [* SEQ(순차적 프로세서)](Computer Science/4.3 순차적 Y86-64 구현.md)
-- [* 파이프 라인은 무엇인가](Computer Science/4.4 파이프라이닝의 일반 원리.md)
-- [* Y86-64 ISA를 효과적인 파이프라인 형 프로세서로 구현](Computer Science/4.5 Pipeline type Y86-64 구현.md)
-- [* 효율적인 프로그램을 만드는데는 여러 활동이 필요하다](Computer Science/5. 프로그램 성능 최적화하기.md)
-- [* 코드를 컴파일러 최적화된 코드로 짜자](Computer Science/5.1 최적화 컴파일러의 능력과 한계.md)
-- [* 프로그래머는 컴파일러를 도와야한다](Computer Science/5.15 요약.md)
-- [* CPE](Computer Science/5.2 프로그램 성능표현.md)
-- [* 추상화된 프로그램이 체계적으로 보다 효율적인 코드를 변환하는 법 맛보기](Computer Science/5.3 프로그램 예제.md)
+### [ComputerScience](#ComputerScience)
+- [1. 컴퓨터 시스템으로의 여행](ComputerScience/1. 컴퓨터 시스템으로의 여행.md)
+- [2 정보의표현과처리](ComputerScience/2 정보의표현과처리.md)
+- [2.4 부동소수점](ComputerScience/2.4 부동소수점.md)
+- [일반적인 원리는 이해해도 자세한 내용은 바우고 싶지않다는 말은 자신을 속이는 것이다 기억하자](ComputerScience/3 프로그램의 기계 수준 표현.md)
+- [# 3.11.4 부동소수점 상수의 정의 및 이용](ComputerScience/3.11.md)
+- [# 4.1.1 프로그래머 가시성 상태](ComputerScience/4.1 Y86-64 인스트럭션 집합.md)
+- [* 인스트럭션 집합 인코딩사 값이 유일해야한다](ComputerScience/4.1.3 인스트럭션 인코딩.md)
+- [* 프로세서는 일반적으로 발생한 특정 예외 상황을 처리하기 위한 프로시저인 예외 처리 루틴을 호출](ComputerScience/4.1.4 Y86-64 예외 상황.md)
+- [* X86-64와 다른 규칙을 적용한다](ComputerScience/4.1.5 Y86-64 프로그램.md)
+- [* 프로그램 설계시 모호성을 최소화](ComputerScience/4.1.6 일부 Y86-64 인스트럭션들에 관한 설명.md)
+- [* HCL(hardware control language)](ComputerScience/4.2 논리 설계와 하드웨어 제어 언어 HCL.md)
+- [* SEQ(순차적 프로세서)](ComputerScience/4.3 순차적 Y86-64 구현.md)
+- [* 파이프 라인은 무엇인가](ComputerScience/4.4 파이프라이닝의 일반 원리.md)
+- [* Y86-64 ISA를 효과적인 파이프라인 형 프로세서로 구현](ComputerScience/4.5 Pipeline type Y86-64 구현.md)
+- [* 효율적인 프로그램을 만드는데는 여러 활동이 필요하다](ComputerScience/5. 프로그램 성능 최적화하기.md)
+- [* 코드를 컴파일러 최적화된 코드로 짜자](ComputerScience/5.1 최적화 컴파일러의 능력과 한계.md)
+- [* 프로그래머는 컴파일러를 도와야한다](ComputerScience/5.15 요약.md)
+- [* CPE](ComputerScience/5.2 프로그램 성능표현.md)
+- [* 추상화된 프로그램이 체계적으로 보다 효율적인 코드를 변환하는 법 맛보기](ComputerScience/5.3 프로그램 예제.md)
 
 ### [Etc](#Etc)
 - [* 임베디드에서 많이 사용되는 RISC 프로세서이다](Etc/ARM 아키텍쳐.md)
