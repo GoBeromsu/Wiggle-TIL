@@ -8,24 +8,28 @@
 배운 것을 넘어 공유하고 싶다면 [블로그][1]에 작성합니다
 
 
-_64 TILs and counting..._
+_65 TILs and counting..._
 
 ---
 
 ### 4 most recent TILs
 
+- [Recursion(순환)](Algorithm/1.순환.md) - Fri Jan 14 10:04:39 2022 +0900
 - [3-2.물리데이터베이스설계](정보처리기사/3-2.물리데이터베이스설계 .md) - Thu Jan 13 18:33:39 2022 +0900
 - [3-1 논리데이터베이스설계](정보처리기사/3-1-1.논리데이터베이스설계.md) - Thu Jan 13 18:33:39 2022 +0900
 - [3-1.논리데이터베이스설계](정보처리기사/3-1-2.논리데이터베이스설계.md) - Thu Jan 13 18:33:39 2022 +0900
-- [1-1-2 요구사항 확인](정보처리기사/1-1-2.요구사항확인.md) - Wed Jan 12 17:24:30 2022 +0900
 
 ### Categories
 
+- [Algorithm](#Algorithm)
 - [ComputerScience](#ComputerScience)
 - [Etc](#Etc)
 - [Flutter](#Flutter)
 - [HackerRank](#HackerRank)
 - [정보처리기사](#정보처리기사)
+
+### [Algorithm](#Algorithm)
+- [Recursion(순환)](Algorithm/1.순환.md)
 
 ### [ComputerScience](#ComputerScience)
 - [1.컴퓨터시스템으로의여행](ComputerScience/1.컴퓨터시스템으로의여행.md)
