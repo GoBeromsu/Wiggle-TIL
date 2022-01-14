@@ -14,10 +14,10 @@ _65 TILs and counting..._
 
 ### 4 most recent TILs
 
+- [3 프로그램의기계수준표현](ComputerScience/3.프로그램의기계수준표현.md) - Fri Jan 14 21:39:49 2022 +0900
 - [Recursion(순환)](Algorithm/1.순환.md) - Fri Jan 14 10:04:39 2022 +0900
 - [3-2.물리데이터베이스설계](정보처리기사/3-2.물리데이터베이스설계 .md) - Thu Jan 13 18:33:39 2022 +0900
 - [3-1 논리데이터베이스설계](정보처리기사/3-1-1.논리데이터베이스설계.md) - Thu Jan 13 18:33:39 2022 +0900
-- [3-1.논리데이터베이스설계](정보처리기사/3-1-2.논리데이터베이스설계.md) - Thu Jan 13 18:33:39 2022 +0900
 
 ### Categories
 
@@ -35,8 +35,8 @@ _65 TILs and counting..._
 - [1.컴퓨터시스템으로의여행](ComputerScience/1.컴퓨터시스템으로의여행.md)
 - [2.4부동소수점](ComputerScience/2.4부동소수점.md)
 - [2정보의표현과처리](ComputerScience/2정보의표현과처리.md)
-- [3.11](ComputerScience/3.11.md)
-- [3 프로그램의기계수준표현](ComputerScience/3프로그램의기계수준표현.md)
+- [3.11.4 ~ 5](ComputerScience/3.11.md)
+- [3 프로그램의기계수준표현](ComputerScience/3.프로그램의기계수준표현.md)
 - [4.1.3 인스트럭션인코딩](ComputerScience/4.1.3인스트럭션인코딩.md)
 - [4.1.4Y86-64예외상황](ComputerScience/4.1.4Y86-64예외상황.md)
 - [4.1.5Y86-64프로그램](ComputerScience/4.1.5Y86-64프로그램.md)
