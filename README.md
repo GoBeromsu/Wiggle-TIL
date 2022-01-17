@@ -8,16 +8,16 @@
 배운 것을 넘어 공유하고 싶다면 [블로그][1]에 작성합니다
 
 
-_70 TILs and counting..._
+_71 TILs and counting..._
 
 ---
 
 ### 4 most recent TILs
 
+- [정렬](Algorithm/2.정렬.md) - Mon Jan 17 18:20:44 2022 +0900
 - [1-2.화면설계](정보처리기사/1-2.화면설계.md) - Sun Jan 16 16:37:40 2022 +0900
 - [1-3.애플리케이션설계](정보처리기사/1-3.애플리케이션설계.md) - Sun Jan 16 16:37:40 2022 +0900
 - [1-4.인터페이스설계](정보처리기사/1-4.인터페이스설계.md) - Sun Jan 16 16:37:40 2022 +0900
-- [3-4.SQL활용](정보처리기사/3-4.SQL활용.md) - Sat Jan 15 15:44:06 2022 +0900
 
 ### Categories
 
@@ -30,6 +30,7 @@ _70 TILs and counting..._
 
 ### [Algorithm](#Algorithm)
 - [Recursion(순환)](Algorithm/1.순환.md)
+- [정렬](Algorithm/2.정렬.md)
 
 ### [ComputerScience](#ComputerScience)
 - [1.컴퓨터시스템으로의여행](ComputerScience/1.컴퓨터시스템으로의여행.md)
