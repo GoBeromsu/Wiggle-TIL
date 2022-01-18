@@ -14,7 +14,7 @@ _72 TILs and counting..._
 
 ### 4 most recent TILs
 
-- [# Use React Components](gatsby/useReactComponents.md) - Mon Jan 17 23:02:21 2022 +0900
+- [Use React Components](gatsby/useReactComponents.md) - Mon Jan 17 23:02:21 2022 +0900
 - [정렬](Algorithm/2.정렬.md) - Mon Jan 17 18:20:44 2022 +0900
 - [1-4.인터페이스설계](정보처리기사/1-4.인터페이스설계.md) - Sun Jan 16 16:37:40 2022 +0900
 - [1-2.화면설계](정보처리기사/1-2.화면설계.md) - Sun Jan 16 16:37:40 2022 +0900
@@ -93,7 +93,7 @@ _72 TILs and counting..._
 - [letsEcho](HackerRank/letsEcho.md)
 
 ### [gatsby](#gatsby)
-- [# Use React Components](gatsby/useReactComponents.md)
+- [Use React Components](gatsby/useReactComponents.md)
 
 ### [정보처리기사](#정보처리기사)
 - [1-1-1 요구사항확인](정보처리기사/1-1-1.요구사항확인.md)
