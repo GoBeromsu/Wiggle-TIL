@@ -8,16 +8,16 @@
 배운 것을 넘어 공유하고 싶다면 [블로그][1]에 작성합니다
 
 
-_71 TILs and counting..._
+_72 TILs and counting..._
 
 ---
 
 ### 4 most recent TILs
 
+- [# Use React Components](gatsby/useReactComponents.md) - Mon Jan 17 23:02:21 2022 +0900
 - [정렬](Algorithm/2.정렬.md) - Mon Jan 17 18:20:44 2022 +0900
-- [1-2.화면설계](정보처리기사/1-2.화면설계.md) - Sun Jan 16 16:37:40 2022 +0900
-- [1-3.애플리케이션설계](정보처리기사/1-3.애플리케이션설계.md) - Sun Jan 16 16:37:40 2022 +0900
 - [1-4.인터페이스설계](정보처리기사/1-4.인터페이스설계.md) - Sun Jan 16 16:37:40 2022 +0900
+- [1-2.화면설계](정보처리기사/1-2.화면설계.md) - Sun Jan 16 16:37:40 2022 +0900
 
 ### Categories
 
@@ -26,6 +26,7 @@ _71 TILs and counting..._
 - [Etc](#Etc)
 - [Flutter](#Flutter)
 - [HackerRank](#HackerRank)
+- [gatsby](#gatsby)
 - [정보처리기사](#정보처리기사)
 
 ### [Algorithm](#Algorithm)
@@ -90,6 +91,9 @@ _71 TILs and counting..._
 - [MoreonConditionals](HackerRank/MoreonConditionals.md)
 - [TheWorldOfNumbers](HackerRank/TheWorldOfNumbers.md)
 - [letsEcho](HackerRank/letsEcho.md)
+
+### [gatsby](#gatsby)
+- [# Use React Components](gatsby/useReactComponents.md)
 
 ### [정보처리기사](#정보처리기사)
 - [1-1-1 요구사항확인](정보처리기사/1-1-1.요구사항확인.md)
