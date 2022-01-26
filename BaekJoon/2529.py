@@ -1,35 +1,36 @@
-import sys
+import sys, math
 
 # 부등호의 갯수
-# k = int(sys.stdin.readline())
-# sign = list(sys.stdin.readline().split())
-k = 2
-sign = ['<','>']
+k = int(sys.stdin.readline())
+sign = list(sys.stdin.readline().split())
 
-numbers = [0,1,2,3,4,5,6,7,8,9]
-mxm,mim = 0,0
-# 선택된 숫자는 모두 달라야함
-# 부등호에 올 수 있는 숫자는 0~9
-# 부등호가 무조건 성립해야함
-# 부등호를 빼면 숫자가 생김 -> 이 숫자들의 최대와 최소 구하라
+checker = [False] * 10
+mxm, mim = "",""
 
-def backtrack(sindex:int,result:list):
+def backtrack(sindex: int, result: str):
     # base case
-    if sindex==k:
-        mxm=min(mxm,makeInt(result) )
-        mxm=max(mxm, makeInt(result))
+    global mxm, mim
+    if sindex == k+1:
+        if not len(mim):
+            mim=result
+        else:
+            mxm=result
+        return
     else:
-        if checkSign(sindex):
-            for n in numbers:
-                if result[-1]>n:
-                    backtrack(sindex+1, result+[n])
-def checkSign(sindex:int):
-    if sign[sindex] =='>':
-        return True
-    return False
-def makeInt(result:list):
-    result = list(map(str,result))
-    number = ''.join(result)
-    return int(number)
+        for i in range(10):
+            if not checker[i]:
+                if sindex == 0 or checkSign(result[-1],str(i),sign[sindex-1] ):
+                    checker[i] = True
+                    backtrack(sindex + 1, result +str(i))
+                    checker[i] = False
 
-# print할 때 자릿수 체크해서 출력해야함 0 때문에
+def checkSign( i, j,sign):
+    if sign == "<":
+        return i < j
+    if sign == ">":
+        return i > j
+
+
+backtrack(0, "")
+print(mxm)
+print(mim)
