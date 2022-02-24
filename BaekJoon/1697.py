@@ -9,11 +9,11 @@ def dfs(n,k):
         if x==k:
             print(dist[x])
             break
-            for j in (x-1,x+1,x*2):
-                if 0<=j<=10000 and not dist[j]:
-                    dist[j]=dist[x]+1
-                    q.append(j)
+        for j in (x-1,x+1,x*2):
+            if 0<=j<=10000 and not dist[j]:
+                dist[j]=dist[x]+1
+                q.append(j)
 
 n,k = map(int,sys.stdin.readline().split())
-dist=[0]*10000
+dist=[0]*100000
 dfs(n, k)
