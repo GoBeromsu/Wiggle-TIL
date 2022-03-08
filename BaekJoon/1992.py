@@ -23,3 +23,5 @@ def solve(x,y,length):
     ans.append(node)
 solve(0, 0, n)
 print("".join(map(str,ans)))
+
+import

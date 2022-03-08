@@ -17,3 +17,4 @@ for i  in range(numLength):
 
 for i in numArr:
     print(i)
+print()
