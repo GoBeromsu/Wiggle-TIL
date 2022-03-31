@@ -14,6 +14,11 @@ const int MAX_SERIAL_NUMBER = 100000;
  */
 void fillFrequencyTable(const vector<int> &data, int n, vector<int> &table)
 {
+    // data 안의 입력된 시리얼 번호들을 순차적으로 조회하며 테이블에 빈도수를 기록한다.
+    for (int i = 0; i < n; i++)
+    {
+        table[data[i]] += 1;
+    }
 }
 
 /**
@@ -25,15 +30,27 @@ void fillFrequencyTable(const vector<int> &data, int n, vector<int> &table)
  */
 vector<int> getUniqueElements(const vector<int> &data, int n)
 {
+    vector<int> ret;                                           //유일한 원소들 배열
+    vector<int> table = vector<int>(MAX_SERIAL_NUMBER + 1, 0); //빈도수 조회 테이블 생성 및 초기화
+    fillFrequencyTable(data, n, table);
 
-    vector<int> ret; //유일한 원소들 배열
+    for (int i = 1; i < MAX_SERIAL_NUMBER + 1; i++)
+    {
+        if (table[i] == 1)
+        {
+            // 시리얼 번호가 한 번만 입력된 것들을 벡터 ret에 모두 저장한다.
+            ret.push_back(i);
+        }
+    }
+
+    return ret;
 }
 
 int main()
 {
     int n;
     scanf("%d", &n);
-
+    // 벡터 data를 생성하고, 값을 입력한다.
     vector<int> data = vector<int>(n);
     for (int i = 0; i < n; ++i)
     {
@@ -51,3 +68,4 @@ int main()
         }
         printf("%d", answer[i]);
     }
+}
