@@ -62,7 +62,7 @@ bool process(int L, vector<int> number)
         }
     }
 
-    return true;
+    return true; // 위의 반복문을 모두 통과하면, 경로가 존재하므로 참을 반환합니다
 }
 
 int main()

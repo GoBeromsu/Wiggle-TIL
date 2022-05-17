@@ -1,4 +1,11 @@
 {
   "python.formatting.provider": "black",
-  "C_Cpp.errorSquiggles": "Disabled"
+  "C_Cpp.errorSquiggles": "Disabled",
+  "files.associations": {
+    "vector": "cpp",
+    "algorithm": "cpp",
+    "xlocale": "cpp",
+    "xutility": "cpp",
+    "xstring": "cpp"
+  }
 }
