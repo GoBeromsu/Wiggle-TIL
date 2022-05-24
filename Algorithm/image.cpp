@@ -105,5 +105,5 @@ int main()
 
     cout << result << endl;
     cout << answers[N - 1][minIdx] << endl;
-    cout << "실행시간: " << duration << "초" << endl;
+    // cout << "실행시간: " << duration << "초" << endl;
 }
