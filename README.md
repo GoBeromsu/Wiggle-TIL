@@ -8,16 +8,16 @@
 배운 것을 넘어 공유하고 싶다면 [블로그][1]에 작성합니다
 
 
-_74 TILs and counting..._
+_75 TILs and counting..._
 
 ---
 
 ### 4 most recent TILs
 
+- [# WEB 보안](WebHacking/WebSecurity.md) - Sat May 28 15:01:17 2022 +0900
 - [# 웹 아키텍쳐](WebHacking/Web&&HTTP.md) - Tue May 24 16:41:02 2022 +0900
 - [5-1 소프트웨어 개발 방법론 활용](정보처리기사/5-1.소프트웨어개발방법론활용.md) - Mon Jan 24 22:50:10 2022 +0900
 - [Use React Components](gatsby/useReactComponents.md) - Mon Jan 17 23:02:21 2022 +0900
-- [정렬](Algorithm/2.정렬.md) - Mon Jan 17 18:20:44 2022 +0900
 
 ### Categories
 
@@ -95,6 +95,7 @@ _74 TILs and counting..._
 
 ### [WebHacking](#WebHacking)
 - [# 웹 아키텍쳐](WebHacking/Web&&HTTP.md)
+- [# WEB 보안](WebHacking/WebSecurity.md)
 
 ### [gatsby](#gatsby)
 - [Use React Components](gatsby/useReactComponents.md)
