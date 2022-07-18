@@ -14,10 +14,10 @@ _77 TILs and counting..._
 
 ### 4 most recent TILs
 
-- [버프 스위트](WebHacking/burpSuit.md) - Sat Jun 25 16:16:31 2022 +0900
-- [# 정보 수집](WebHacking/getInformation.md) - Tue May 31 22:17:09 2022 +0900
-- [# WEB 보안](WebHacking/WebSecurity.md) - Sat May 28 15:01:17 2022 +0900
-- [# 웹 아키텍쳐](WebHacking/Web&&HTTP.md) - Tue May 24 16:41:02 2022 +0900
+- [Gettingstartedwithconditionals](Shell/Gettingstartedwithconditionals.md) - Mon Jul 18 10:42:49 2022 +0900
+- [MoreonConditionals](Shell/MoreonConditionals.md) - Mon Jul 18 10:42:49 2022 +0900
+- [TheWorldOfNumbers](Shell/TheWorldOfNumbers.md) - Mon Jul 18 10:42:49 2022 +0900
+- [letsEcho](Shell/letsEcho.md) - Mon Jul 18 10:42:49 2022 +0900
 
 ### Categories
 
@@ -25,7 +25,7 @@ _77 TILs and counting..._
 - [ComputerScience](#ComputerScience)
 - [Etc](#Etc)
 - [Flutter](#Flutter)
-- [HackerRank](#HackerRank)
+- [Shell](#Shell)
 - [WebHacking](#WebHacking)
 - [gatsby](#gatsby)
 - [정보처리기사](#정보처리기사)
@@ -82,16 +82,16 @@ _77 TILs and counting..._
 - [Flutter 프로젝트 구조](Flutter/Flutter프로젝트구조.md)
 - [What is Widget](Flutter/Widget.md)
 
-### [HackerRank](#HackerRank)
-- [APersonalizedEcho](HackerRank/APersonalizedEcho.md)
-- [ArithmeticOperations](HackerRank/ArithmeticOperations.md)
-- [ComparingNumbers](HackerRank/ComparingNumbers.md)
-- [Gettingstartedwithconditionals](HackerRank/Gettingstartedwithconditionals.md)
-- [LoopingandSkipping](HackerRank/LoopingandSkipping.md)
-- [LoopingwithNumbers](HackerRank/LoopingwithNumbers.md)
-- [MoreonConditionals](HackerRank/MoreonConditionals.md)
-- [TheWorldOfNumbers](HackerRank/TheWorldOfNumbers.md)
-- [letsEcho](HackerRank/letsEcho.md)
+### [Shell](#Shell)
+- [APersonalizedEcho](Shell/APersonalizedEcho.md)
+- [ArithmeticOperations](Shell/ArithmeticOperations.md)
+- [ComparingNumbers](Shell/ComparingNumbers.md)
+- [Gettingstartedwithconditionals](Shell/Gettingstartedwithconditionals.md)
+- [LoopingandSkipping](Shell/LoopingandSkipping.md)
+- [LoopingwithNumbers](Shell/LoopingwithNumbers.md)
+- [MoreonConditionals](Shell/MoreonConditionals.md)
+- [TheWorldOfNumbers](Shell/TheWorldOfNumbers.md)
+- [letsEcho](Shell/letsEcho.md)
 
 ### [WebHacking](#WebHacking)
 - [# 웹 아키텍쳐](WebHacking/Web&&HTTP.md)
