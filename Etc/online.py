@@ -55,8 +55,6 @@ class Clearance_Product(Product):
 
     def get_price(self):
         return int(self._price * (1 - Clearance_Product.rate) * self._quantity)
-
-
 class ShoppingCart:
     def __init__(self):
         self._shop_List = []
@@ -84,13 +82,13 @@ class ShoppingCart:
 
     def billing(self):
         print('구입 품목:\n')
-
-        print(f'{"품목명":34s}{"수량":5s}{"정상가":5s} {"할인가"}')
-
+        print(f'{"품목명":<35s}{"수량":>7}{"정상가":>11} {"할인가":>6}')
+        shop = ''
         for p in self._shop_List:
-            print(f'{p.name:30s}\t{p.quantity:5d}\t{p.price:5,d}\t{p.get_price(): 3,}')
+            shop += f'{p.name:35s}\t{p.price:>7,d}\t{p.quantity:8d}\t{p.get_price():>0,d}\n'
+        print(shop)
         print(f'{65 * "-"}')
-        print(f'{"합계":43s}{self.total_price():6,d} ')
+        print(f'{"합계":<55}{self.total_price():>10,} ')
 
     def __str__(self):
         shop = ''
@@ -98,7 +96,6 @@ class ShoppingCart:
             shop += f'{p}\n'
 
         return shop
-
 
 if __name__ == '__main__':
     products = [Product('제주 삼다수 그린 2L', 1200, 5),
@@ -111,5 +108,4 @@ if __name__ == '__main__':
     for p in products:
         my_cart.add(p)
 
-    print(my_cart)
     my_cart.billing()
