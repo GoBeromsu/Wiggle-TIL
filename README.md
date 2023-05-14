@@ -8,31 +8,28 @@
 배운 것을 넘어 공유하고 싶다면 [블로그][1]에 작성합니다
 
 
-_77 TILs and counting..._
+_74 TILs and counting..._
 
 ---
 
 ### 4 most recent TILs
 
-- [Gettingstartedwithconditionals](Shell/Gettingstartedwithconditionals.md) - Mon Jul 18 10:42:49 2022 +0900
-- [MoreonConditionals](Shell/MoreonConditionals.md) - Mon Jul 18 10:42:49 2022 +0900
-- [TheWorldOfNumbers](Shell/TheWorldOfNumbers.md) - Mon Jul 18 10:42:49 2022 +0900
-- [letsEcho](Shell/letsEcho.md) - Mon Jul 18 10:42:49 2022 +0900
+- [Recursion(순환)](Algorithm - Major/1.순환.md) - Sun May 14 20:33:21 2023 +0900
+- [정렬](Algorithm - Major/2.정렬.md) - Sun May 14 20:33:21 2023 +0900
+- [# WEB 보안](Etc/WebSecurity.md) - Sun May 14 20:33:21 2023 +0900
+- [# 정보 수집](Etc/getInformation.md) - Sun May 14 20:33:21 2023 +0900
 
 ### Categories
 
-- [Algorithm](#Algorithm)
+- [Algorithm - Major](#Algorithm - Major)
 - [ComputerScience](#ComputerScience)
 - [Etc](#Etc)
-- [Flutter](#Flutter)
 - [Shell](#Shell)
-- [WebHacking](#WebHacking)
-- [gatsby](#gatsby)
 - [정보처리기사](#정보처리기사)
 
-### [Algorithm](#Algorithm)
-- [Recursion(순환)](Algorithm/1.순환.md)
-- [정렬](Algorithm/2.정렬.md)
+### [Algorithm - Major](#Algorithm - Major)
+- [Recursion(순환)](Algorithm - Major/1.순환.md)
+- [정렬](Algorithm - Major/2.정렬.md)
 
 ### [ComputerScience](#ComputerScience)
 - [1.컴퓨터시스템으로의여행](ComputerScience/1.컴퓨터시스템으로의여행.md)
@@ -63,7 +60,11 @@ _77 TILs and counting..._
 - [Notion과친해지기](Etc/Notion과친해지기.md)
 - [Syncawait문법](Etc/Syncawait문법.md)
 - [VPN이란](Etc/VPN이란.md)
+- [# 웹 아키텍쳐](Etc/Web&&HTTP.md)
+- [# WEB 보안](Etc/WebSecurity.md)
 - [WorkingCopySetting](Etc/WorkingCopySetting.md)
+- [버프 스위트](Etc/burpSuit.md)
+- [# 정보 수집](Etc/getInformation.md)
 - [scriptable도전-1](Etc/scriptable도전-1.md)
 - [scriptable도전-2](Etc/scriptable도전-2.md)
 - [기술블로그를해야하는이유](Etc/기술블로그를해야하는이유.md)
@@ -78,10 +79,6 @@ _77 TILs and counting..._
 - [테스트코드란](Etc/테스트코드란.md)
 - [포인터는왜쓸까_](Etc/포인터는왜쓸까_.md)
 
-### [Flutter](#Flutter)
-- [Flutter 프로젝트 구조](Flutter/Flutter프로젝트구조.md)
-- [What is Widget](Flutter/Widget.md)
-
 ### [Shell](#Shell)
 - [APersonalizedEcho](Shell/APersonalizedEcho.md)
 - [ArithmeticOperations](Shell/ArithmeticOperations.md)
@@ -92,15 +89,6 @@ _77 TILs and counting..._
 - [MoreonConditionals](Shell/MoreonConditionals.md)
 - [TheWorldOfNumbers](Shell/TheWorldOfNumbers.md)
 - [letsEcho](Shell/letsEcho.md)
-
-### [WebHacking](#WebHacking)
-- [# 웹 아키텍쳐](WebHacking/Web&&HTTP.md)
-- [# WEB 보안](WebHacking/WebSecurity.md)
-- [버프 스위트](WebHacking/burpSuit.md)
-- [# 정보 수집](WebHacking/getInformation.md)
-
-### [gatsby](#gatsby)
-- [Use React Components](gatsby/useReactComponents.md)
 
 ### [정보처리기사](#정보처리기사)
 - [1-1-1 요구사항확인](정보처리기사/1-1-1.요구사항확인.md)
