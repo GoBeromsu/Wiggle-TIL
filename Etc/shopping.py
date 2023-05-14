@@ -16,7 +16,7 @@ class Product:
                 name_length += 1
 
         # 한글과 영문의 폭을 고려하여 공백을 채워줍니다.
-        padding = ' ' * (30 - name_length)
+        padding = ' ' * (35 - name_length)
 
         info = f'{self.name}{padding}{self.quantity:>3}개 {self.get_price():>7}'
         return info
