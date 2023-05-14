@@ -82,13 +82,22 @@ class ShoppingCart:
 
     def billing(self):
         print('구입 품목:\n')
-        print(f'{"품목명":<35s}{"수량":>7}{"정상가":>11} {"할인가":>6}')
+        print(f'{"품목명":<35s}{"수량":>3}{"정상가":>7} {"할인가":>7}')
         shop = ''
         for p in self._shop_List:
-            shop += f'{p.name:35s}\t{p.price:>7,d}\t{p.quantity:8d}\t{p.get_price():>0,d}\n'
+            name_length = 0
+            for char in p._name:
+                if ord('가') <= ord(char) <= ord('힣'):  # 한글 문자인 경우
+                    name_length += 2
+                else:
+                    name_length += 1
+
+            # 한글과 영문의 폭을 고려하여 공백을 채워줍니다.
+            padding = ' ' * (35 - name_length)
+            shop += f'{p._name}{padding}\t{p.price:>7,d}\t{p.quantity:5d}\t{p.get_price():>6,d}\n'
         print(shop)
-        print(f'{65 * "-"}')
-        print(f'{"합계":<55}{self.total_price():>10,} ')
+        print(f'{70 * "-"}')
+        print(f'{"합계":<50}{self.total_price():>10,} ')
 
     def __str__(self):
         shop = ''
