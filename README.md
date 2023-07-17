@@ -77,5 +77,5 @@ _47 TILs and counting..._
 - [테스트코드란](Etc/테스트코드란.md)
 - [포인터는왜쓸까_](Etc/포인터는왜쓸까_.md)
 
-[1]: https://goberomsu.github.io/
+[1]: https://berom.tistory.com/
 
