@@ -35,4 +35,3 @@ plt.ylabel("Loss")  # y축의 라벨을 설정합니다.
 plt.xlabel('w')  # x축의 라벨을 설정합니다.
 
 plt.show()  # 그래프를 화면에 표시합니다.
-```
