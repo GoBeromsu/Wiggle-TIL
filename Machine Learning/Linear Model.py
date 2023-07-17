@@ -1,6 +1,3 @@
-당신이 요청한대로 코드 블럭 옆에 주석을 달아봤습니다.
-
-```python
 import numpy as np  # numpy 라이브러리를 임포트합니다. 이 라이브러리는 배열, 행렬 계산 등 수치 연산을 위한 기능을 제공합니다.
 import matplotlib.pyplot as plt  # 데이터를 시각화하기 위해 matplotlib의 pyplot를 임포트합니다.
 
