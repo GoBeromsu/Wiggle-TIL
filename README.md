@@ -8,28 +8,26 @@
 배운 것을 넘어 공유하고 싶다면 [블로그][1]에 작성합니다
 
 
-_74 TILs and counting..._
+_47 TILs and counting..._
 
 ---
 
 ### 4 most recent TILs
 
-- [Recursion(순환)](Algorithm - Major/1.순환.md) - Sun May 14 20:33:21 2023 +0900
-- [정렬](Algorithm - Major/2.정렬.md) - Sun May 14 20:33:21 2023 +0900
-- [# WEB 보안](Etc/WebSecurity.md) - Sun May 14 20:33:21 2023 +0900
+- [정렬](Algorithm/2.정렬.md) - Mon Jul 17 11:16:26 2023 +0900
+- [Recursion(순환)](Algorithm/1.순환.md) - Mon Jul 17 11:16:26 2023 +0900
+- [# 웹 아키텍쳐](Etc/Web&&HTTP.md) - Sun May 14 20:33:21 2023 +0900
 - [# 정보 수집](Etc/getInformation.md) - Sun May 14 20:33:21 2023 +0900
 
 ### Categories
 
-- [Algorithm - Major](#Algorithm - Major)
+- [Algorithm](#Algorithm)
 - [ComputerScience](#ComputerScience)
 - [Etc](#Etc)
-- [Shell](#Shell)
-- [정보처리기사](#정보처리기사)
 
-### [Algorithm - Major](#Algorithm - Major)
-- [Recursion(순환)](Algorithm - Major/1.순환.md)
-- [정렬](Algorithm - Major/2.정렬.md)
+### [Algorithm](#Algorithm)
+- [Recursion(순환)](Algorithm/1.순환.md)
+- [정렬](Algorithm/2.정렬.md)
 
 ### [ComputerScience](#ComputerScience)
 - [1.컴퓨터시스템으로의여행](ComputerScience/1.컴퓨터시스템으로의여행.md)
@@ -78,37 +76,6 @@ _74 TILs and counting..._
 - [왜내코로나위젯은갑자기안되었을까](Etc/왜내코로나위젯은갑자기안되었을까.md)
 - [테스트코드란](Etc/테스트코드란.md)
 - [포인터는왜쓸까_](Etc/포인터는왜쓸까_.md)
-
-### [Shell](#Shell)
-- [APersonalizedEcho](Shell/APersonalizedEcho.md)
-- [ArithmeticOperations](Shell/ArithmeticOperations.md)
-- [ComparingNumbers](Shell/ComparingNumbers.md)
-- [Gettingstartedwithconditionals](Shell/Gettingstartedwithconditionals.md)
-- [LoopingandSkipping](Shell/LoopingandSkipping.md)
-- [LoopingwithNumbers](Shell/LoopingwithNumbers.md)
-- [MoreonConditionals](Shell/MoreonConditionals.md)
-- [TheWorldOfNumbers](Shell/TheWorldOfNumbers.md)
-- [letsEcho](Shell/letsEcho.md)
-
-### [정보처리기사](#정보처리기사)
-- [1-1-1 요구사항확인](정보처리기사/1-1-1.요구사항확인.md)
-- [1-1-2 요구사항 확인](정보처리기사/1-1-2.요구사항확인.md)
-- [1-2.화면설계](정보처리기사/1-2.화면설계.md)
-- [1-3.애플리케이션설계](정보처리기사/1-3.애플리케이션설계.md)
-- [1-4.인터페이스설계](정보처리기사/1-4.인터페이스설계.md)
-- [3-1 논리데이터베이스설계](정보처리기사/3-1-1.논리데이터베이스설계.md)
-- [3-1.논리데이터베이스설계](정보처리기사/3-1-2.논리데이터베이스설계.md)
-- [3-2.물리데이터베이스설계](정보처리기사/3-2.물리데이터베이스설계.md)
-- [3-3.SQL응용](정보처리기사/3-3.SQL응용.md)
-- [3-4.SQL활용](정보처리기사/3-4.SQL활용.md)
-- [4 서버프로그램구현](정보처리기사/4.서버프로그램구현.md)
-- [4 응용SW기초기술활용](정보처리기사/4.응용SW기초기술활용.md)
-- [5-1 소프트웨어 개발 방법론 활용](정보처리기사/5-1.소프트웨어개발방법론활용.md)
-- [5-2 IT프로젝트정보시스템구축관리](정보처리기사/5-2.IT프로젝트정보시스템구축관리.md)
-- [5-3 소프트웨어개발보안구축](정보처리기사/5-3.소프트웨어개발보안구축.md)
-- [5 DB관련신기술](정보처리기사/5.DB관련신기술.md)
-- [5 HW관련신기술](정보처리기사/5.HW관련신기술.md)
-- [5. SW / 보안 관련 신기술](정보처리기사/5.SW보안관련신기술.md)
 
 [1]: https://goberomsu.github.io/
 
